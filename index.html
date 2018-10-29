@@ -13,19 +13,21 @@
 <body>
 
     <!-- Creating header -->
-    <header>
+    <div class="header-container">
 
-      <!-- Creating a visible page title -->
-      <a href="index.html">Stefano Picker</a>
+        <header>
+          <a href="index.html" class="header-title">Stefano Picker</a>
 
-      <!-- Setting up the navigation menu -->
-      <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </nav>
-
-    </header>
+          <!-- Setting up the navigation menu -->
+          <nav>
+              <ul>
+                  <li><a href="index.html" class="menu">About</a></li>
+                  <li><a href="portfolio.html" class="menu">Portfolio</a></li>
+                  <li><a href="contact.html" class= "menu">Contact</a></li>
+              </ul>
+          </nav>
+        </header> 
+    </div>
 
     <!-- Creating main container -->
     <div class="main-container">
@@ -35,7 +37,7 @@
 
         <h2>About Me</h2>
 
-        <img src="./assets/images/picker-it.jpg" alt="Stefano Picker's photo">
+        <img src="./assets/images/picker-it.jpg" alt="Stefano Picker's photo" id="bio-image">
 
         <p>
           Stefano Picker is a world-class Product Manager with 15 years of experience in Italy, the United Kingdom and both coasts of the United States.
@@ -47,9 +49,9 @@
           Stefano has been a student, practitioner and advocate of Design Thinking, Agile Development and The Lean Startup. He is equally comfortable hiring and coaching a team of product managers at a Fortune 50 company, or being a solo entrepreneur to develop a cutting-edge IoT product with a global team of freelancers.
         </p>
         <p>
-          He is now enhancing his technical skills at the <a href="https://bootcamp.sas.upenn.edu/" alt="UPenn Coding Bootcamp">Penn University Coding Bootcamp</a>, to support his entrepreneurial venture and feed his passion for great user experience! 
+          He is now enhancing his technical skills at the <a href="https://bootcamp.sas.upenn.edu/" class="bio" alt="UPenn Coding Bootcamp">Penn University Coding Bootcamp</a>, to support his entrepreneurial venture and feed his passion for great user experience! 
         </p>
-        
+
       </section>
 
     </div>
